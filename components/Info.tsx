@@ -21,7 +21,7 @@ function Info() {
         <section className='p-2 md:p-8'>
             <div className="py-12 mx-auto lg:pt-48 lg:pb-24">
                 <div className="p-2 ring-white/10 ring-1 rounded-3xl ">
-                    <div className="grid items-center grid-cols-1 gap-12 p-8 lg:grid-cols-2 lg:p-10 ring-white/10 ring-1 rounded-2xl ">
+                    <div className="grid items-center grid-cols-1 gap-12 p-2 md:p-8 lg:grid-cols-2 ring-white/10 ring-1 rounded-2xl ">
                         <div>
                             {/* <p className="pb-2 text-4xl font-normal tracking-tight text-transparent bg-gradient-to-r from-vanta-50 via-vanta-300 to-vanta-600 bg-clip-text font-display sm:text-6xl">
                 Explore our most <span className="lg:block">popular courses</span>
