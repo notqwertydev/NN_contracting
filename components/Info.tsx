@@ -18,7 +18,7 @@ function Info() {
     ];
 
     return (
-        <section className='p-8'>
+        <section className='p-2 md:p-8'>
             <div className="py-12 mx-auto lg:pt-48 lg:pb-24">
                 <div className="p-2 ring-white/10 ring-1 rounded-3xl ">
                     <div className="grid items-center grid-cols-1 gap-12 p-8 lg:grid-cols-2 lg:p-10 ring-white/10 ring-1 rounded-2xl ">

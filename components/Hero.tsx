@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="p-8">
+    <section className="p-2 md:p-8">
       <div className=" w-full
        flex flex-col items-center md:flex-row md:items-end justify-center
        

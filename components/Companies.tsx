@@ -18,7 +18,7 @@ function Companies() {
 
     return (
         <section>
-            <div className="p-8">
+            <div className="p-2 md:p-8">
                 <div className="relative items-center w-full p-2 ring-white/10 ring-1 from-white/20 rounded-3xl">
                     <div className="p-8 mx-auto lg:p-10 ring-1 ring-white/10 rounded-2xl shadow-massive">
 
