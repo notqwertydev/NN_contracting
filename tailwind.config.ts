@@ -38,7 +38,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [addVariablesForColors, require("tailwindcss-animate")],
+  plugins: [addVariablesForColors, require("tailwindcss-animate"),require("@tailwindcss/aspect-ratio")],
 };
 
 
