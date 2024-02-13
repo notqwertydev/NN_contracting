@@ -12,7 +12,7 @@ export default function Home() {
 
 
 
-      <div className="w-full mx-auto max-w-7xl">
+      <div className="w-full pt-24 mx-auto md:pt-20 max-w-7xl">
 
         <Hero />
         <About />

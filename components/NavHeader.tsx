@@ -92,7 +92,7 @@ const Header = () => {
         //     </div>
         // </div>
 
-        <section className="fixed relative z-50 w-full overflow-hidden backdrop-blur-2xl">
+        <section className="fixed top-0 z-50 w-full backdrop-blur-2xl">
             <div className="relative w-full mx-auto max-w-7xl">
                 <div className="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row ">
                     <div className="flex flex-row items-center justify-between text-white lg:justify-start">
