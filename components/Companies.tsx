@@ -84,7 +84,7 @@ function Companies() {
     const [selectedCategory, setSelectedCategory] = useState('All');
 
     // Function to handle category change
-    const handleCategoryChange = (event) => {
+    const handleCategoryChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
         setSelectedCategory(event.target.value);
     };
     const categories = ['All', 'Retail', 'Residential', 'Industrial', 'Entertainment', 'Spiritual'];

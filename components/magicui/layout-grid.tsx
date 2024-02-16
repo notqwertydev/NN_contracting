@@ -8,6 +8,7 @@ type Card = {
     id: number;
     content: JSX.Element | React.ReactNode | string;
     title: string;
+    category:string;
     className: string;
     thumbnail: string;
 };
