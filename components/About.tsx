@@ -3,7 +3,7 @@ import AvatarGrid from "./AvatarGrid";
 
 function About() {
     return (
-        <section className="p-2 md:p-8">
+        <section id="about" className="p-2 md:p-8">
             <div className="relative items-center w-full p-2 ring-white/10 ring-1 from-white/20 rounded-3xl">
                 <div className="p-2 mx-auto md:p-8 lg:p-10 ring-1 ring-white/10 rounded-2xl shadow-massive">
                     <div>
