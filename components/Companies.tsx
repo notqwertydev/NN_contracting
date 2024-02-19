@@ -21,12 +21,12 @@ const courses = [
     {
         id: 2,
         imageSrc: '/image2.jpg',
-        category: 'Residential',
-        title: 'Marina Tower',
+        category: 'Retail',
+        title: 'Altavista Tower',
         location: "Lebanon",
         client: "CAT ",
-        description: "1000t Box fins, Glass cleaning system, Sail super structure ",
-        duration: "2 Years"
+        description: "200t sail super structure facing ",
+        duration: "6 months"
 
 
 
@@ -35,12 +35,12 @@ const courses = [
     {
         id: 3,
         imageSrc: '/image2.jpg',
-        category: 'Industrial',
-        title: 'Litani Damn',
+        category: 'Residential',
+        title: 'Marina Tower',
         location: "Lebanon",
-        client: "SETCO ",
-        description: "Pressurized submerged tunnels doors ",
-        duration: "12 Months"
+        client: "CAT ",
+        description: "1000t Box fins, Glass cleaning system, Sail super structure",
+        duration: "2 Years"
 
 
 
@@ -49,12 +49,12 @@ const courses = [
     {
         id: 4,
         imageSrc: '/image2.jpg',
-        category: 'Industrial',
-        title: 'Litani Damn',
+        category: 'Residential',
+        title: 'Villa Jaber',
         location: "Lebanon",
-        client: "SETCO ",
-        description: "Pressurized submerged tunnels doors ",
-        duration: "12 Months"
+        client: "Philipe Jaber ",
+        description: "50t corten exo skeleton",
+        duration: "5 Months"
 
 
 
@@ -63,16 +63,135 @@ const courses = [
     {
         id: 5,
         imageSrc: '/image2.jpg',
+        category: 'Spiritual',
+        title: 'Masjed Chakib Erslan',
+        location: "Lebanon",
+        client: "ACON",
+        description: "Steel super strcture trompe l'oeuil",
+        duration: "3 Months"
+
+
+
+
+    },
+    {
+        id: 6,
+        imageSrc: '/image2.jpg',
+        category: 'Entertainment',
+        title: 'Centrale',
+        location: "Lebanon",
+        client: "Bernard Khoury ",
+        description: "Hydraulic steel roof and upper lounge",
+        duration: "4 Months"
+
+
+
+
+    },
+    {
+        id: 7,
+        imageSrc: '/image2.jpg',
+        category: 'Entertainment',
+        title: 'Uberhaus',
+        location: "Lebanon",
+        client: "Nemer Saliba ",
+        description: "Open Dome ",
+        duration: "3 Months"
+    },
+
+    {
+        id: 8,
+        imageSrc: '/image2.jpg',
+        category: 'Entertainment',
+        title: 'B018',
+        location: "Lebanon",
+        client: "Bernard Khoury ",
+        description: "Hydraulic roof - movable structures ",
+        duration: "6 Months"
+    },
+
+    {
+        id: 9,
+        imageSrc: '/image2.jpg',
         category: 'Industrial',
         title: 'Litani Damn',
         location: "Lebanon",
-        client: "SETCO ",
+        client: "SETCO",
         description: "Pressurized submerged tunnels doors ",
         duration: "12 Months"
+    },
 
+    {
+        id: 10,
+        imageSrc: '/image2.jpg',
+        category: 'Industrial',
+        title: 'Zouk Power Plant',
+        location: "Lebanon",
+        client: "BWSC",
+        description: "Gas chimneys ",
+        duration: "12 Months"
+    },
+    {
+        id: 11,
+        imageSrc: '/image2.jpg',
+        category: 'Stand alone structures',
+        title: 'Habtoor Welcome Plant',
+        location: "Lebanon",
+        client: "Al Habtoor",
+        description: "Streched fabric tent ",
+        duration: "3 Months"
+    },
+    {
+        id: 12,
+        imageSrc: '/image2.jpg',
+        category: 'Stairs',
+        title: 'Elie Saab New York',
+        location: "New York",
+        client: "Elie Saab",
+        description: "Eleptical Steel stair ",
+        duration: "5 Months"
+    },
 
+    {
+        id: 13,
+        imageSrc: '/image2.jpg',
+        category: 'Stairs',
+        title: 'Papal Embassy',
+        location: "Lebanon",
+        client: "Papal",
+        description: "Steel stair with glass hand rail ",
+        duration: "3 Months"
+    },
 
-
+    {
+        id: 14,
+        imageSrc: '/image2.jpg',
+        category: 'Utility Structures',
+        title: 'Medco Yaght Station',
+        location: "Lebanon",
+        client: "Medco",
+        description: "blablabla ",
+        duration: "12 Months"
+    },
+    {
+        id: 15,
+        imageSrc: '/image2.jpg',
+        category: 'Utility Structures',
+        title: 'Habtoor Hotel',
+        location: "Lebanon",
+        client: "Al Habtoor",
+        description: "360 panoramic elevator",
+        duration: "12 Months"
+    },
+    {
+        id: 16,
+        imageSrc: '/image2.jpg',
+        category: 'Utility Structures',
+        title: 'Beirut Rafic Hariri Internation Airport',
+        location: "Lebanon",
+        client: "Lebanese Government",
+        description: "Two faced elevator elevator",
+        duration: "6 Months"
     },
     // Add more courses as needed
 ];
@@ -87,7 +206,7 @@ function Companies() {
     const handleCategoryChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
         setSelectedCategory(event.target.value);
     };
-    const categories = ['All', 'Retail', 'Residential', 'Industrial', 'Entertainment', 'Spiritual'];
+    const categories = ['All', 'Entertainment', 'Industrial', 'Retail', 'Residential',  'Spiritual', 'Stairs','Utility Structures'];
     // Filter courses based on selected category
     const filteredCourses = courses.filter((course) =>
         selectedCategory === 'All' ? true : course.category === selectedCategory

@@ -3,49 +3,49 @@ import Marquee from "@/components/magicui/marquee";
 
 const logos = [
     {
-        name: "Microsoft",
-        img: "https://cdn.simpleicons.org/microsoft/fff",
+        name: "ABC",
+        img: "/logos/abc.png",
     },
     {
-        name: "Apple",
-        img: "https://cdn.simpleicons.org/apple/fff",
+        name: "AUB",
+        img: "/logos/aub.png",
     },
     {
-        name: "Google",
-        img: "https://cdn.simpleicons.org/google/fff",
+        name: "B018",
+        img: "/logos/b018.png",
     },
     {
-        name: "Facebook",
-        img: "https://cdn.simpleicons.org/facebook/fff",
+        name: "Bentley",
+        img: "https://cdn.simpleicons.org/bentley/fff",
     },
     {
-        name: "LinkedIn",
-        img: "https://cdn.simpleicons.org/linkedin/fff",
+        name: "Cat Group",
+        img: "/logos/catgroup.png",
     },
     {
-        name: "Twitter",
-        img: "https://cdn.simpleicons.org/twitter/fff",
+        name: "City Centre",
+        img: "/logos/citycentre.png",
     }
     ,
     {
-        name: "Apple",
-        img: "https://cdn.simpleicons.org/apple/fff",
+        name: "Four Seasons",
+        img: "/logos/fourseasons.png",
     },
     {
-        name: "Google",
-        img: "https://cdn.simpleicons.org/google/fff",
+        name: "Kharafi",
+        img: "/logos/kharafi.svg",
     },
     {
-        name: "Facebook",
-        img: "https://cdn.simpleicons.org/facebook/fff",
+        name: "Lamborghin",
+        img: "https://cdn.simpleicons.org/lamborghini",
     },
     {
         name: "LinkedIn",
-        img: "https://cdn.simpleicons.org/linkedin/fff",
+        img: "/logos/mitsulift.png",
     },
     {
         name: "Twitter",
-        img: "https://cdn.simpleicons.org/twitter/fff",
+        img: "/logos/shindler.png",
     },
 ];
 
@@ -60,7 +60,7 @@ const Logo = ({ name, img }: { name: string; img: string }) => {
 const MarqueeLogos = () => {
     return (
         <div className="relative flex flex-col items-center justify-center w-full h-full gap-4 py-20 overflow-hidden rounded-lg md:shadow-2xl ">
-            <Marquee pauseOnHover={true} className="[--gap:3rem]">
+            <Marquee pauseOnHover={false} className="[--gap:3rem]">
                 {logos.map((logo, idx) => (
                     <Logo key={idx} {...logo} />
                 ))}

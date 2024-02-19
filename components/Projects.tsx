@@ -30,12 +30,12 @@ const courses = [
     {
         id: 2,
         imageSrc: '/image2.jpg',
-        category: 'Residential',
-        title: 'Marina Tower',
+        category: 'Retail',
+        title: 'Altavista Tower',
         location: "Lebanon",
         client: "CAT ",
-        description: "1000t Box fins, Glass cleaning system, Sail super structure ",
-        duration: "2 Years"
+        description: "200t sail super structure facing ",
+        duration: "6 months"
 
 
 
@@ -44,12 +44,12 @@ const courses = [
     {
         id: 3,
         imageSrc: '/image2.jpg',
-        category: 'Industrial',
-        title: 'Litani Damn',
+        category: 'Residential',
+        title: 'Marina Tower',
         location: "Lebanon",
-        client: "SETCO ",
-        description: "Pressurized submerged tunnels doors ",
-        duration: "12 Months"
+        client: "CAT ",
+        description: "1000t Box fins, Glass cleaning system, Sail super structure",
+        duration: "2 Years"
 
 
 
@@ -58,12 +58,12 @@ const courses = [
     {
         id: 4,
         imageSrc: '/image2.jpg',
-        category: 'Industrial',
-        title: 'Litani Damn',
+        category: 'Residential',
+        title: 'Villa Jaber',
         location: "Lebanon",
-        client: "SETCO ",
-        description: "Pressurized submerged tunnels doors ",
-        duration: "12 Months"
+        client: "Philipe Jaber ",
+        description: "50t corten exo skeleton",
+        duration: "5 Months"
 
 
 
