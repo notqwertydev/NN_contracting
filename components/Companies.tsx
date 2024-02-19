@@ -228,7 +228,7 @@ function Companies() {
                                     <h1 className="mt-6 text-3xl font-light tracking-tighter text-white lg:text-6xl">
                                         A Portfolio <span className="block text-[#2b669c]">of Prestige</span>
                                     </h1>
-                                    <p className="w-full md:w-full">
+                                    <p className="w-full mt-4 md:w-full">
                                         From retail spaces and residential towers to spiritual and entertainment venues, our portfolio showcases our versatility and commitment to excellence. Each project, a testament to our ability to navigate the complexities of modern engineering and design, reflects our dedication to fulfilling our clients visions without compromise.
                                     </p>
                                 </div>
