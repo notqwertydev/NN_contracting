@@ -206,7 +206,7 @@ function Companies() {
     const handleCategoryChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
         setSelectedCategory(event.target.value);
     };
-    const categories = ['All', 'Entertainment', 'Industrial', 'Retail', 'Residential',  'Spiritual', 'Stairs','Utility Structures'];
+    const categories = ['All', 'Entertainment', 'Industrial', 'Retail', 'Residential', 'Spiritual', 'Stairs', 'Utility Structures'];
     // Filter courses based on selected category
     const filteredCourses = courses.filter((course) =>
         selectedCategory === 'All' ? true : course.category === selectedCategory
@@ -265,7 +265,13 @@ function Companies() {
                                         <div>
                                             <div className="inline-flex justify-between items-center  w-full">
                                                 <div>
-                                                    <Image className=" w-full rounded-lg " src={course.imageSrc} alt={course.description} width={500} height={150} />
+                                                    <Image className=" w-full rounded-lg " src={course.imageSrc} alt={course.description} width={500} height={150}
+                                                    
+                                                    // style={{
+                                                    //     objectFit: "contain",
+                                                    //     objectPosition: "center"
+                                                    // }}
+                                                    />
                                                 </div>
                                             </div>
                                             <div className="order-first mt-4">

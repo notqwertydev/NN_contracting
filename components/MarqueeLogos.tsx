@@ -51,16 +51,20 @@ const logos = [
 
 const Logo = ({ name, img }: { name: string; img: string }) => {
     return (
-        <div className={cn("h-12 w-12 cursor-pointer")}>
-            <img src={img} alt={name} />
+        <div className={cn(" w-24 cursor-pointer")}>
+            <img src={img} alt={name} style={{
+                objectFit: "contain",
+                aspectRatio: "5/4",
+                mixBlendMode: "color-burn",
+            }} />
         </div>
     );
 };
 
 const MarqueeLogos = () => {
     return (
-        <div className="relative flex flex-col items-center justify-center w-full h-full gap-4 py-20 overflow-hidden rounded-lg md:shadow-2xl ">
-            <Marquee pauseOnHover={false} className="[--gap:3rem]">
+        <div className="relative flex flex-col items-center justify-center w-full h-full gap-4 py-16 overflow-hidden rounded-lg md:shadow-2xl ">
+            <Marquee pauseOnHover={false} className="[--gap:3rem] h-full">
                 {logos.map((logo, idx) => (
                     <Logo key={idx} {...logo} />
                 ))}

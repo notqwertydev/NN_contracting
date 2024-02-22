@@ -35,7 +35,13 @@ function About() {
                                 // }}
                                 className="image-container"
                             >
-                                <img src="/image2.jpg" alt="houses" />
+                                <img src="/image2.jpg" alt="houses"
+                                style={{
+                                    objectFit:"cover",
+                                    objectPosition:"center"
+                                  }}
+                                
+                                />
                             </div>
                             <div className="md:w-[50%]">
                                 <span className="relative px-3 py-1 text-sm leading-6 text-white rounded-full ring-1 ring-white/10">

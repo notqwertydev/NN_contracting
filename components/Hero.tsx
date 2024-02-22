@@ -72,7 +72,13 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="/image1.jpg" alt="houses" />
+            <img src="/image1.jpg" alt="houses"
+            style={{
+              objectFit:"cover",
+              objectPosition:"center"
+            }}
+            
+            />
           </motion.div>
         </div>
       </div>
