@@ -10,7 +10,7 @@ import React, { useState } from 'react';
 const courses = [
     {
         id: 1,
-        imageSrc: '/image1.jpg',
+        imageSrc: '/projects/citycenterpic.JPG',
         category: 'Retail',
         title: 'City Center',
         location: "Lebanon",
@@ -20,7 +20,7 @@ const courses = [
     },
     {
         id: 2,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/altavistapic.jpg',
         category: 'Retail',
         title: 'Altavista Tower',
         location: "Lebanon",
@@ -34,7 +34,7 @@ const courses = [
     },
     {
         id: 3,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/marinapic.jpg',
         category: 'Residential',
         title: 'Marina Tower',
         location: "Lebanon",
@@ -48,7 +48,7 @@ const courses = [
     },
     {
         id: 4,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/jabrepic.jpg',
         category: 'Residential',
         title: 'Villa Jaber',
         location: "Lebanon",
@@ -62,7 +62,7 @@ const courses = [
     },
     {
         id: 5,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/masjedpic.jpeg',
         category: 'Spiritual',
         title: 'Masjed Chakib Erslan',
         location: "Lebanon",
@@ -76,7 +76,7 @@ const courses = [
     },
     {
         id: 6,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/centralpic.png',
         category: 'Entertainment',
         title: 'Centrale',
         location: "Lebanon",
@@ -90,7 +90,7 @@ const courses = [
     },
     {
         id: 7,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/uberhauspic.jpeg',
         category: 'Entertainment',
         title: 'Uberhaus',
         location: "Lebanon",
@@ -101,7 +101,7 @@ const courses = [
 
     {
         id: 8,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/b018pic.jpg',
         category: 'Entertainment',
         title: 'B018',
         location: "Lebanon",
@@ -112,7 +112,7 @@ const courses = [
 
     {
         id: 9,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/litanipic.jpg',
         category: 'Industrial',
         title: 'Litani Damn',
         location: "Lebanon",
@@ -123,7 +123,7 @@ const courses = [
 
     {
         id: 10,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/zoukpic.jpg',
         category: 'Industrial',
         title: 'Zouk Power Plant',
         location: "Lebanon",
@@ -133,7 +133,7 @@ const courses = [
     },
     {
         id: 11,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/habtoortentpic.png',
         category: 'Stand alone structures',
         title: 'Habtoor Welcome Plant',
         location: "Lebanon",
@@ -143,7 +143,7 @@ const courses = [
     },
     {
         id: 12,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/eliesaabpic.jpeg',
         category: 'Stairs',
         title: 'Elie Saab New York',
         location: "New York",
@@ -154,7 +154,7 @@ const courses = [
 
     {
         id: 13,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/papalpic.jpg',
         category: 'Stairs',
         title: 'Papal Embassy',
         location: "Lebanon",
@@ -165,9 +165,9 @@ const courses = [
 
     {
         id: 14,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/medcopic.jpg',
         category: 'Utility Structures',
-        title: 'Medco Yaght Station',
+        title: 'Medco Yacht Station',
         location: "Lebanon",
         client: "Medco",
         description: "blablabla ",
@@ -175,7 +175,7 @@ const courses = [
     },
     {
         id: 15,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/habtoorpic.jpg',
         category: 'Utility Structures',
         title: 'Habtoor Hotel',
         location: "Lebanon",
@@ -185,7 +185,7 @@ const courses = [
     },
     {
         id: 16,
-        imageSrc: '/image2.jpg',
+        imageSrc: '/projects/airportpic.jpg',
         category: 'Utility Structures',
         title: 'Beirut Rafic Hariri Internation Airport',
         location: "Lebanon",
