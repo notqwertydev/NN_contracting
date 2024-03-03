@@ -10,7 +10,7 @@ import React, { useState } from 'react';
 const courses = [
     {
         id: 1,
-        imageSrc: '/projects/citycenterpic.JPG',
+        imageSrc: '/projects/citycenterpic.jpg',
         category: 'Retail',
         title: 'City Center',
         location: "Lebanon",
