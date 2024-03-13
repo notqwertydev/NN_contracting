@@ -281,7 +281,6 @@ function Companies() {
                                             <p className="mt-2 text-md ">
                                                 {course.location}<br />
                                                 {course.client}<br />
-                                                {course.duration}<br />
                                                 {course.description}
                                             </p>
                                         </div>

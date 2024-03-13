@@ -27,12 +27,6 @@ function About() {
 
                         <div className="flex flex-col items-center justify-between mt-6 space-y-3 text-white md:flex-row gap-[3rem]">
                             <div
-                                // initial={{ x: "7rem", opacity: 0 }}
-                                // animate={{ x: 0, opacity: 1 }}
-                                // transition={{
-                                //     duration: 2,
-                                //     type: "ease-in",
-                                // }}
                                 className="image-container"
                             >
                                 <img src="/image2.jpg" alt="houses"

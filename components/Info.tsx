@@ -39,7 +39,7 @@ function Info() {
                                 </p>
 
                             </div>
-                            <div className="flex mt-12">
+                            <div className="flex">
                                 <a href="/" className="rounded-lg px-4 py-2 text-sm transition-all flex items-center justify-center text-white bg-gradient-to-b from-white/[.105] to-white/[.15] hover:to-white/[.25] h-10 ring-1 ring-inset ring-white/10">Contact us</a>
                             </div>
                            
@@ -62,24 +62,6 @@ function Info() {
                                             <p className="flex flex-row items-center mt-2 text-vanta-300"> <Mail size="14" /> &nbsp; INFO@NNENG.CO</p>
                                             <p className="flex flex-row items-center mt-2 text-vanta-300"> <Phone size="14" /> &nbsp; +9611884941</p>
                                             <p className="flex flex-row items-center mt-2 text-vanta-300"> <Phone size="14" /> &nbsp; +9611871632</p>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-
-                                <div>
-                                    <div className="flex flex-col justify-between w-full gap-4">
-
-                                        <div>
-
-                                            <p className="w-full mt-8 text-lg text-white font-display lg:text-xl">WORKSHOP</p>
-                                        </div>
-                                        <div>
-                                            <p className="flex flex-row items-center mt-2 text-vanta-300"> <MapPin size="14" /> &nbsp; ROUMIEH, INDUSTRIAL ZONE</p>
-
-                                            <p className="flex flex-row items-center mt-2 text-vanta-300"> <Phone size="14" /> &nbsp; +9611902632</p>
-                                            <p className="flex flex-row items-center mt-2 text-vanta-300"> <Phone size="14" /> &nbsp; +9613871632</p>
                                         </div>
                                     </div>
 

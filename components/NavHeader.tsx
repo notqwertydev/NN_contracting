@@ -16,7 +16,7 @@ const Header = () => {
                         <a href="/" className="inline-flex items-center ">
 
                             {/* <span className="text-xl font-bold uppercase">NN</span> */}
-                            <img src="/logo.png" alt="NN Logo" className="h-[2rem]  object-contain" />
+                            <img src="/logo.png" alt="NN Logo" className="h-[3rem]  object-contain" />
                         </a>
                         <button
                             onClick={() => setIsOpen(!isOpen)}

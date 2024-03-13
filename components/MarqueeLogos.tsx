@@ -1,77 +1,70 @@
 import { cn } from "@/utils/cn";
 import Marquee from "@/components/magicui/marquee";
 
-const logos = [
+export default function Logos() {
+  const logos = [
     {
-        name: "ABC",
-        img: "/logos/abc.png",
+      name: "ABC",
+      img: "/logos/abc.png",
     },
     {
-        name: "AUB",
-        img: "/logos/aub.png",
+      name: "AUB",
+      img: "/logos/aub.png",
     },
     {
-        name: "B018",
-        img: "/logos/b018.png",
+      name: "B018",
+      img: "/logos/b018.png",
     },
     {
-        name: "Bentley",
-        img: "https://cdn.simpleicons.org/bentley/fff",
+      name: "Bentley",
+      img: "https://cdn.simpleicons.org/bentley/fff",
     },
     {
-        name: "Cat Group",
-        img: "/logos/catgroup.png",
+      name: "Cat Group",
+      img: "/logos/catgroup.png",
     },
     {
-        name: "City Centre",
-        img: "/logos/citycentre.png",
-    }
-    ,
-    {
-        name: "Four Seasons",
-        img: "/logos/fourseasons.png",
+      name: "City Centre",
+      img: "/logos/citycentre.png",
     },
     {
-        name: "Kharafi",
-        img: "/logos/kharafi.svg",
+      name: "Four Seasons",
+      img: "/logos/fourseasons.png",
+      color: "white",
     },
     {
-        name: "Lamborghin",
-        img: "https://cdn.simpleicons.org/lamborghini",
+      name: "Kharafi",
+      img: "/logos/kharafi.svg",
     },
     {
-        name: "LinkedIn",
-        img: "/logos/mitsulift.png",
+      name: "Lamborghin",
+      img: "https://cdn.simpleicons.org/lamborghini",
     },
     {
-        name: "Twitter",
-        img: "/logos/shindler.png",
+      name: "LinkedIn",
+      img: "/logos/mitsulift.png",
     },
-];
+    {
+      name: "Twitter",
+      img: "/logos/shindler.png",
+    },
+  ];
 
-const Logo = ({ name, img }: { name: string; img: string }) => {
-    return (
-        <div className={cn(" w-24 cursor-pointer")}>
-            <img src={img} alt={name} style={{
-                objectFit: "contain",
-                aspectRatio: "5/4",
-                mixBlendMode: "color-burn",
-            }} />
+  return (
+    <div className="py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <h2 className="text-center text-lg font-semibold leading-8 text-gray-900"></h2>
+        <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+          {logos.map((logo, index) => (
+            <img
+              key={index}
+              className="col-span-2 max-h-24 w-auto object-contain lg:col-span-1"
+              src={logo.img}
+              alt={logo.name}
+            />
+          ))}
         </div>
-    );
-};
-
-const MarqueeLogos = () => {
-    return (
-        <div className="relative flex flex-col items-center justify-center w-full h-full gap-4 py-16 overflow-hidden rounded-lg md:shadow-2xl ">
-            <Marquee pauseOnHover={false} className="[--gap:3rem] h-full">
-                {logos.map((logo, idx) => (
-                    <Logo key={idx} {...logo} />
-                ))}
-            </Marquee>
-
-        </div>
-    );
-};
-
-export default MarqueeLogos;
+      </div>
+    </div>
+  );
+}
