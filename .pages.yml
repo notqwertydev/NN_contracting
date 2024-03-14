@@ -4,7 +4,7 @@ content:
   - name: projects
     label: Projects
     type: collection
-    path: NN_contracting/components/Companies.tsx
+    path: NN_contracting/components
     fields:
       - name: imageSrc
         label: Image
