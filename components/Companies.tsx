@@ -29,8 +29,6 @@ const courses = [
         duration: "6 months"
 
 
-
-
     },
     {
         id: 3,
@@ -193,7 +191,6 @@ const courses = [
         description: "Two faced elevator elevator",
         duration: "6 Months"
     },
-    // Add more courses as needed
 ];
 
 
