@@ -4,7 +4,7 @@ content:
   - name: projects
     label: Projects
     type: collection
-    path: components
+    path: src/projects
     fields:
       - name: imageSrc
         label: Image
@@ -14,24 +14,16 @@ content:
       - name: category
         label: Category
         type: select
+        required: true
         options:
-          - label: Retail
-            value: Retail
-          - label: Residential
-            value: Residential
-          - label: Spiritual
-            value: Spiritual
-          - label: Entertainment
-            value: Entertainment
-          - label: Industrial
-            value: Industrial
-          - label: Stand alone structures
-            value: Stand alone structures
-          - label: Stairs
-            value: Stairs
-          - label: Utility Structures
-            value: Utility Structures
-        required: false
+          - Retail
+          - Residential
+          - Spiritual
+          - Entertainment
+          - Industrial
+          - Stand alone structures
+          - Stairs
+          - Utility Structures
       - name: title
         label: Title
         type: string
