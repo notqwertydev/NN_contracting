@@ -4,7 +4,7 @@ content:
   - name: projects
     label: Projects
     type: collection
-    path: NN_contracting/components/Projects
+    path: /Projects
     fields:
       - name: imageSrc
         label: Image
