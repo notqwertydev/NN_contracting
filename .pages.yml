@@ -1,28 +1,58 @@
 media: public
 
-logos:
-  - name: "ABC"
-    img: "/logos/abc.png"
-  - name: "AUB"
-    img: "/logos/aub.png"
-  - name: "B018"
-    img: "/logos/b018.png"
-  - name: "Bentley"
-    img: "https://cdn.simpleicons.org/bentley/fff"
-  - name: "Cat Group"
-    img: "/logos/catgroup.png"
-  - name: "City Centre"
-    img: "/logos/citycentre.png"
-  - name: "City Centre"
-    img: "/logos/creditlibanis.png"
-  - name: "Four Seasons"
-    img: "/logos/fourseasons.png"
-    color: "white"
-  - name: "Kharafi"
-    img: "/logos/kharafi.svg"
-  - name: "Lamborghin"
-    img: "https://cdn.simpleicons.org/lamborghini"
-  - name: "Mitsulift"
-    img: "/logos/mitsulift.png"
-  - name: "Shindler"
-    img: "/logos/shindler.png"
+content:
+  - name: projects
+    label: Projects
+    type: collection
+    path: src/projects
+    fields:
+      - name: imageSrc
+        label: Image
+        type: image
+        list: false
+        required: true
+      - name: category
+        label: Category
+        type: select
+        options:
+          - label: Retail
+            value: Retail
+          - label: Residential
+            value: Residential
+          - label: Spiritual
+            value: Spiritual
+          - label: Entertainment
+            value: Entertainment
+          - label: Industrial
+            value: Industrial
+          - label: Stand alone structures
+            value: Stand alone structures
+          - label: Stairs
+            value: Stairs
+          - label: Utility Structures
+            value: Utility Structures
+        required: true
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: location
+        label: Location
+        type: string
+        required: true
+      - name: client
+        label: Client
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: string
+        required: true
+      - name: duration
+        label: Duration
+        type: string
+        required: true
+    view:
+      fields: [title, category, location, client, description, duration]
+      primary: title
+      sort: [title]
