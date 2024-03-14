@@ -11,6 +11,7 @@ content:
         type: image
         list: false
         required: true
+        
       - name: category
         label: Category
         type: select
@@ -35,11 +36,7 @@ content:
         label: Description
         type: string
         required: true
-      - name: duration
-        label: Duration
-        type: string
-        required: true
     view:
-      fields: [title, category, location, client, description, duration]
+      fields: [title, category, location, client, description]
       primary: title
       sort: [title]
