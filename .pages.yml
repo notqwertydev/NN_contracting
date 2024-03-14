@@ -4,7 +4,7 @@ content:
   - name: projects
     label: Projects
     type: collection
-    path: components
+    path: components/projects
     fields:
       - name: imageSrc
         label: Image
