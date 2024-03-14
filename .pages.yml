@@ -31,7 +31,7 @@ content:
             value: Stairs
           - label: Utility Structures
             value: Utility Structures
-        required: true
+        required: false
       - name: title
         label: Title
         type: string
