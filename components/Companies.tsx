@@ -16,7 +16,6 @@ const courses = [
         location: "Lebanon",
         client: "Majid Al Futaim ",
         description: "400t Wave like skylight ",
-        duration: " 6 Months"
     },
     {
         id: 2,
@@ -26,9 +25,6 @@ const courses = [
         location: "Lebanon",
         client: "CAT ",
         description: "200t sail super structure facing ",
-        duration: "6 months"
-
-
     },
     {
         id: 3,
@@ -52,7 +48,6 @@ const courses = [
         location: "Lebanon",
         client: "Philipe Jaber ",
         description: "50t corten exo skeleton",
-        duration: "5 Months"
 
 
 
@@ -105,7 +100,6 @@ const courses = [
         location: "Lebanon",
         client: "Bernard Khoury ",
         description: "Hydraulic roof - movable structures ",
-        duration: "6 Months"
     },
 
     {
@@ -116,7 +110,6 @@ const courses = [
         location: "Lebanon",
         client: "SETCO",
         description: "Pressurized submerged tunnels doors ",
-        duration: "12 Months"
     },
 
     {
@@ -127,7 +120,6 @@ const courses = [
         location: "Lebanon",
         client: "BWSC",
         description: "Gas chimneys ",
-        duration: "12 Months"
     },
     {
         id: 11,
@@ -137,7 +129,6 @@ const courses = [
         location: "Lebanon",
         client: "Al Habtoor",
         description: "Streched fabric tent ",
-        duration: "3 Months"
     },
     {
         id: 12,
@@ -147,7 +138,6 @@ const courses = [
         location: "New York",
         client: "Elie Saab",
         description: "Eleptical Steel stair ",
-        duration: "5 Months"
     },
 
     {
@@ -158,7 +148,6 @@ const courses = [
         location: "Lebanon",
         client: "Papal",
         description: "Steel stair with glass hand rail ",
-        duration: "3 Months"
     },
 
     {
@@ -169,7 +158,6 @@ const courses = [
         location: "Lebanon",
         client: "Medco",
         description: "blablabla ",
-        duration: "12 Months"
     },
     {
         id: 15,
@@ -179,7 +167,6 @@ const courses = [
         location: "Lebanon",
         client: "Al Habtoor",
         description: "360 panoramic elevator",
-        duration: "12 Months"
     },
     {
         id: 16,
@@ -189,7 +176,6 @@ const courses = [
         location: "Lebanon",
         client: "Lebanese Government",
         description: "Two faced elevator elevator",
-        duration: "6 Months"
     },
 ];
 
