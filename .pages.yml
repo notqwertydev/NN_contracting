@@ -16,14 +16,9 @@ content:
         type: select
         required: true
         options:
-          - Retail
-          - Residential
-          - Spiritual
-          - Entertainment
-          - Industrial
-          - Stand alone structures
-          - Stairs
-          - Utility Structures
+          values:
+          [Entertainment, Industrial, Retail, Spiritual, Stairs, Utulity Structures]
+        
       - name: title
         label: Title
         type: string
