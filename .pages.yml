@@ -4,7 +4,7 @@ content:
   - name: projects
     label: Projects
     type: collection
-    path: components/Companies.tsx
+    path: components/Companies
     fields:
       - name: imageSrc
         label: Image
