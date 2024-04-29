@@ -27,7 +27,7 @@ const Hero = () => {
               <br /> in Every Structure
             </motion.h1>
           </div>
-          <div className="flex flex-col items-start justify-start secondaryText flexhero-des">
+          <div className="flex flex-col items-start justify-start text-white-100 flexhero-des">
             Unveil the future of engineering with N.N Engineering & Contracting. Specializing in steel, stainless steel, and glass, we bring over 30 years of expertise to every project. Our dedication to precision, durability, and aesthetics ensures your vision is crafted into reality with unmatched quality.
           </div>
           {/* <div className="flex flex-col items-start justify-start secondaryText flexhero-des">
@@ -40,23 +40,23 @@ const Hero = () => {
           <div className="flex gap-3 stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={3} end={17} duration={4} /> <span>+</span>
+                <CountUp start={1} end={200} duration={4} /> <span>+</span>
               </span>
               <span className="secondaryText">Projects</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={1950} end={2000} duration={4} /> <span>+</span>
+                <CountUp start={0} end={30} duration={4} /> <span>+</span>
               </span>
-              <span className="secondaryText">Happy Customer</span>
+              <span className="secondaryText">Years of experience</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={2} end={28} /> <span>+</span>
+                <CountUp start={0} end={100} /> <span>%</span>
               </span>
-              <span className="secondaryText">Awards Winning</span>
+              <span className="secondaryText">Client satisfaction</span>
             </div>
           </div>
         </div>

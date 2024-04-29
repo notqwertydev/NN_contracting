@@ -4,7 +4,7 @@ import AvatarGrid from "./AvatarGrid";
 function About() {
     return (
         <section id="about" className="p-2 md:p-8">
-            <div className="relative items-center w-full p-2 ring-white/10 ring-1 from-white/20 rounded-3xl">
+            <div className="relative  items-center w-full p-2 ring-white/10 ring-1 from-white/20 rounded-3xl">
                 <div className="p-2 mx-auto md:p-8 lg:p-10 ring-1 ring-white/10 rounded-2xl shadow-massive">
                     <div>
                         <span className="relative px-3 py-1 text-sm leading-6 text-white rounded-full ring-1 ring-white/10">
@@ -17,11 +17,8 @@ function About() {
                             <p>
                                 At N.N Engineering & Contracting, we pride ourselves on a rich history of delivering complex, state-of-the-art structures across the globe. Our expertise spans across skylights, staircases, domes, and more, with each project tailored to meet the precise needs of our clients. With a comprehensive A-to-Z solution, we ensure a seamless process from technical studies to the final installation, embodying excellence every step of the way.
                             </p>
-
                         </div>
 
-
-                        <AvatarGrid />
 
 
 
@@ -30,11 +27,11 @@ function About() {
                                 className="image-container"
                             >
                                 <img src="/image2.jpg" alt="houses"
-                                style={{
-                                    objectFit:"cover",
-                                    objectPosition:"center"
-                                  }}
-                                
+                                    style={{
+                                        objectFit: "cover",
+                                        objectPosition: "center"
+                                    }}
+
                                 />
                             </div>
                             <div className="md:w-[50%]">
@@ -52,6 +49,11 @@ function About() {
 
 
                         </div>
+                        <div className="mt-12 center">
+                                <p className="w-full md:w-full">
+                                    <AvatarGrid/>
+                                </p>
+                            </div>
                     </div>
                 </div>
             </div>

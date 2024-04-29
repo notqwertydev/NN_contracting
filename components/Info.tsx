@@ -60,8 +60,7 @@ function Info() {
                                         <div>
                                             <p className="flex flex-row items-center mt-2 text-vanta-300"> <MapPin size="14" /> &nbsp; MAR TAKLA – ABDEL MASSIH CENTER</p>
                                             <p className="flex flex-row items-center mt-2 text-vanta-300"> <Mail size="14" /> &nbsp; INFO@NNENG.CO</p>
-                                            <p className="flex flex-row items-center mt-2 text-vanta-300"> <Phone size="14" /> &nbsp; +9611884941</p>
-                                            <p className="flex flex-row items-center mt-2 text-vanta-300"> <Phone size="14" /> &nbsp; +9611871632</p>
+                                            <p className="flex flex-row items-center mt-2 text-vanta-300"> <Phone size="14" /> &nbsp; +961 3 513 844</p>
                                         </div>
                                     </div>
 
