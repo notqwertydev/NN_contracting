@@ -1,9 +1,6 @@
 "use client";
 import Image from 'next/image';
 import MarqueeLogos from './MarqueeLogos';
-import { BorderBeam } from './magicui/border-beam';
-import Projects from './Projects';
-import { LayoutGrid } from './magicui/layout-grid';
 
 import React, { useState } from 'react';
 
